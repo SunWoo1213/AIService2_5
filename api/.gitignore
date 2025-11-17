@@ -1,0 +1,20 @@
+# Environment Variables
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.real
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vercel
+.vercel/
+

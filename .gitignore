@@ -1,0 +1,79 @@
+# Environment Variables - 모든 .env 파일 제외
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.real
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+.vercel.json.backup
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
